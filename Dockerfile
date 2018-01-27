@@ -6,5 +6,5 @@ ENV PROCESSHOME /tacospigot
 ADD start.sh /start.sh
 RUN apt-get update
 RUN apt-get clean all
-RUN useradd -s /bin/bash -d /waterfall -m tacospigot
+RUN useradd -s /bin/bash -d /tacospigot -m tacospigot
 CMD /start.sh
