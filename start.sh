@@ -1,4 +1,4 @@
 chown -R tacospigot /$PROCESSHOME/
 cd /$PROCESSHOME/
-su - tacospigot -c 'java $INVOCATION'
+su - tacospigot -c '$INVOCATION'
 bash
